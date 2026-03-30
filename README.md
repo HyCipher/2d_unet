@@ -9,7 +9,6 @@ This folder contains a PyTorch pipeline to train and run a 2D U-Net on 3D TIFF v
 - `infer.py`: sliding-window inference script for full 3D TIFF volumes.
 - `unet_2d.pth`: saved model weights (if already trained).
 - `requirements.txt`: Python dependencies.
-- `run_examples.sh`: one-command examples for train and inference.
 - `data/images`: training image volumes (`.tif`).
 - `data/labels`: training label volumes (`.tif`).
 
