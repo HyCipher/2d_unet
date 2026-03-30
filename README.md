@@ -120,18 +120,6 @@ Output:
 - Change sliding window overlap with `--patch-size` and `--stride`.
 - To produce binary masks, threshold the output probability volume (for example, `prob > 0.5`).
 
-## One-click examples
-
-Use the helper script:
-
-```bash
-bash run_examples.sh train
-```
-
-```bash
-bash run_examples.sh infer /path/to/input_volume.tif pred_volume.tif
-```
-
 ## License
 
 No project-level license is defined in this folder. Add one if you plan to distribute this code.
